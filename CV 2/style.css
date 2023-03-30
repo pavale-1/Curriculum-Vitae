@@ -1,0 +1,133 @@
+*{
+
+}
+
+
+   
+
+.titulo{
+    display: grid;
+    justify-content: center;
+    max-width: 1200px;
+    background-color: rgb(106, 131, 160);
+    grid-template-columns: 1fr 2fr; 
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "img-1 tex"
+                         "img-1 tex-2";
+    text-align: center;
+    font-family: 'Roboto' , sans-serif;
+}
+
+p{
+    color: rgb(206, 208, 209);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(42, 41, 41);
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(42, 41, 41);
+}
+h4 {
+    color: rgb(206, 208, 209);
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    color: rgb(206, 208, 209);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+i {
+    color: rgb(206, 208, 209);
+}
+
+.titulo img {
+    grid-area: img-1 ;
+    margin-left: 80px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.nombre{
+
+}
+.ocupacion{
+    margin-top: 0%;
+}
+
+
+/* GRid section principal */
+.content{
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 1fr 2fr; 
+    background-color: rgb(35, 63, 126);
+    column-gap: 10px;
+}
+
+
+
+
+/* GRid de Datos personales */
+
+
+.content-izq{
+    display: grid;
+    background-color: rgb(28, 28, 111);
+    align-items: center;
+    height: 200px;
+
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:rgb(28, 28, 111);
+}
+
+.info-title {
+    display: flex;
+    background-color: rgb(28, 28, 111);
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+
+/* GRid de Datos de Carrera */
+.text-1 {
+    display: grid;
+    align-items: center;
+
+}
+
+.text-1a{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-left: 20px;
+
+}
+
+.text-1 p{
+    padding-left: 80px;
+}
+
+
+.conocimiento{
+    text-align: center;
+    font-size: 25px;
+    grid-area: 9/1/ 9/-1;
+
+}
+

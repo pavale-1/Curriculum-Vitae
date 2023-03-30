@@ -1,0 +1,33 @@
+.body1{
+  
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(218, 216, 216);
+}
+
+.titulo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.yo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.datos{
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.icon{
+    text-align: center;
+}
+
+.datos-2{
+    text-align: left;
+    padding-left: 180px;
+}
